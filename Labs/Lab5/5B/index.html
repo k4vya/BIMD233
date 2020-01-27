@@ -10,7 +10,14 @@
   var canvas = document.getElementById("myCanvas");
 var context = canvas.getContext("2d");
   var circle = canvas.getContext("2d");
+  var circle2 = canvas.getContext("2d");
   var h = 600; var w = 600; var m = 20;
+  var x=100, y=100, radius=80, angle=2*Math.PI; 
+ circle.arc(x, y, radius, 0, angle);  
+ circle.lineWidth=5;
+ var x2=500, y2=500, radius=80, angle=2*Math.PI;  circle2.arc(x2, y2, radius, 0, angle);  
+  circle2.lineWidth=5;  
+  circle2.stroke();
 context.moveTo(m,h/3);
 context.lineTo(w-m,h/3);
 context.lineWidth = 5;
@@ -35,11 +42,5 @@ context.stroke();
   context.lineTo((w/2+4*m), (h/3+m));
   context.lineWidth = 5;
 context.stroke();
- var x=h/6, y=w/6, radius=80, angle=2*Math.PI; 
- circle.arc(x, y, radius, 0, angle);  
- circle.lineWidth=5;  
- circle.stroke();
- var x=500, y=500, radius=80, angle=2*Math.PI;  circle.arc(x, y, radius, 0, angle);  
-  circle.lineWidth=5;  
-  circle.stroke();
+ 
 </script>
