@@ -1,0 +1,26 @@
+#starcell {
+  background-color: #002868;
+  width: 355.5555555556px;
+}
+
+#stars {
+  color: white;
+  width: 355.5555555556px;
+}
+
+td.stripes {
+  height: 26.6666666667px;
+}
+
+td.red_stripe {
+  background-color: #BF0A30;
+}
+
+td {
+  border: 3px;
+}
+
+#flag {
+  width: 711.1111111111px;
+  border: 0px solid black;
+}
