@@ -1,0 +1,71 @@
+table, td {
+  border: 1px solid black;
+}
+
+#og{
+  background-color: rgb(136, 31, 48);
+}
+
+#RGB09{
+  background-color: rgb(136, 31, 48, 0.9);
+}
+
+#RGB08{
+  background-color: rgb(136, 31, 48, 0.8);
+}
+#RGB07{
+  background-color: rgb(136, 31, 48, 0.7);
+}
+#RGB06{
+  background-color: rgb(136, 31, 48, 0.6);
+}
+#RGB05{
+  background-color: rgb(136, 31, 48, 0.5);
+}
+#RGB04{
+  background-color: rgb(136, 31, 48, 0.4);
+}
+#RGB03{
+  background-color: rgb(136, 31, 48, 0.3);
+}
+#RGB02{
+  background-color: rgb(136, 31, 48, 0.2);
+}
+#RGB01{
+  background-color: rgb(136, 31, 48, 0.1);
+}
+
+#HSLog{
+  background-color: hsl(350, 77%, 33%);
+}
+
+#HSL09{
+  background-color: hsl(350, 77%, 33%, 0.9);
+}
+
+#HSL08{
+  background-color: hsl(350, 77%, 33%, 0.8);
+}
+
+#HSL07{
+  background-color: hsl(350, 77%, 33%, 0.7);
+}
+
+#HSL06{
+  background-color: hsl(350, 77%, 33%, 0.6);
+}
+#HSL05{
+  background-color: hsl(350, 77%, 33%, 0.5);
+}
+#HSL04{
+  background-color: hsl(350, 77%, 33%, 0.4);
+}
+#HSL03{
+  background-color: hsl(350, 77%, 33%, 0.3);
+}
+#HSL02{
+  background-color: hsl(350, 77%, 33%, 0.2);
+}
+#HSL01{
+  background-color: hsl(350, 77%, 33%, 0.1);
+}
