@@ -7,6 +7,9 @@ for(var i = 0; i < lis.length; i++){
    console.log(i, e.id, e.tagName, e.textContent);
    lis[i].addEventListener("mouseover", function(){
       console.log("mouseover");
+      if (document.getElementById(lis[i]) == "selected"){
+         document.getElementById(lis[i]).style.backgroundColor= "#4b2e83";
+      }
    });
 
    lis[i].addEventListener("mouseout", function(){
